@@ -1,6 +1,6 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'ShTestCocoaProject_Example' do
   pod 'ShTestCocoaProject', :path => '../'
@@ -12,5 +12,6 @@ target 'ShTestCocoaProject_Example' do
     pod 'Nimble', '~> 10.0.0'
     pod 'FBSnapshotTestCase' , '~> 2.1.4'
     pod 'Nimble-Snapshots' , '~> 9.4.0'
+    pod 'Alamofire'
   end
 end
